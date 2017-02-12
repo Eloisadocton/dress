@@ -1,0 +1,199 @@
+body {
+  margin: 0px;
+  font-family: 'Lobster', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+nav {
+  margin: 0;
+  padding-top: 1%;
+  display: inline;
+  height: 100px;
+  overflow:hidden;
+}
+.logoarea {
+  width: 100%;
+}
+h1 {
+  color: #fcbcbe;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 1%;;
+  margin-bottom: 0;
+  float: left;
+}
+h2 {
+  font-size: 2rem;
+  margin: 0;
+  font-family: 'Lobster', cursive;
+  color: white;
+}
+  h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+h4 {
+  font-size: 3rem;
+  margin: 0;
+  font-family: 'Lobster', cursive;
+  color: #fff0f0;
+  text-align: left;
+  margin-left: 5%;
+}
+h5 {
+  font-size: 3rem;
+  margin: 0;
+  font-family: 'Lobster', cursive;
+  color: #f88488;
+  text-align: right;
+  margin-right: 5%;
+}
+.logo {
+ margin-left: 15%;
+   margin-top: 1%;
+  float: clear both
+}
+
+.rightmenu {
+  float: right;
+  possition: relative;
+  margin-top: 1%;
+  margin-right: 10%;
+  color: #77bab8;
+}
+
+.right {
+  display: inline;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: .9rem;
+}
+
+.right:hover {
+  color: #6dbdbd;
+}
+ul {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.shoppingmenu {
+  color: #605b4b;
+  display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: center;
+ position: relative;
+}
+.bar {
+  display: inline;
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: .9rem;
+  margin-bottom: 0px;
+}
+
+.bar:hover {
+  color: #6dbdbd;
+  transition: 1s;
+}
+
+.main{
+  clear: both;
+  background-image: url("../images/dressheroimage2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 600px;
+  margin: 0 auto;
+  padding-top: 2%;
+
+}
+
+.main-two {
+  clear: both;
+  background-image: url("../images/dresshero2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 600px;
+  margin: 0 auto;
+}
+.main-three {
+  clear: both;
+  background-image: url("../images/dresshero3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 700px;
+  margin: 0 auto;
+}
+.blurb {
+  width: 20%;
+  clear: both;
+  float: right;
+  padding: 3%;
+  margin-top: 0;
+  margin-right: 10%;
+  /*margin-bottom: 1%;*/
+  text-align: center;
+}
+.blurb-two {
+  background-color:rgba(192,192,192,0.7);
+  width: 20%;
+  clear: both;
+  float: left;
+  padding: 3%;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-bottom: 15%;
+  text-align: center;
+}
+.blurb-three {
+  background-color:rgba(0, 0, 0, 0.3);
+  width: 20%;
+  clear: both;
+  float: right;
+  padding: 3%;
+  margin-top: 15%;
+  margin-right: 12%;
+  margin-bottom: 15%;
+  text-align: center;
+  color: white;
+}
+.text {
+  color: #00313d;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  background:rgba(255,255,255, 0.3);
+  padding: 1%;
+}
+
+.shopshirtsbutton {
+  font-weight: light;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1rem;
+}
+
+p   {
+  text-align: justify;
+  color: white;
+
+}
+a {
+  color: white;
+  font-size: 1.5rem;
+/*padding: 10%;
+margin-left: 5%;
+background:rgba(255,255,255, 0.3);*/
+}
